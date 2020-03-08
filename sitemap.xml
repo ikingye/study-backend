@@ -3,17 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ikingye.github.io/study-backend/docs/db/mysql/</loc>
-    <lastmod>2020-03-09T00:39:26+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ikingye.github.io/study-backend/docs/frame/php/</loc>
-    <lastmod>2020-03-09T00:38:53+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ikingye.github.io/study-backend/docs/db/python/</loc>
     <lastmod>2020-03-09T00:38:53+08:00</lastmod>
   </url>
   
@@ -23,13 +13,42 @@
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/study-backend/docs/db/redis/</loc>
+    <lastmod>2020-03-09T00:41:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/mq/redis/</loc>
+    <lastmod>2020-03-09T00:41:45+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/study-backend/docs/db/</loc>
     <lastmod>2020-03-09T00:39:26+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/study-backend/docs/db/mysql/</loc>
+    <lastmod>2020-03-09T00:41:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/mq/activemq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/mq/rocketmq/</loc>
+    <lastmod>2020-03-09T00:41:45+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/study-backend/docs/frame/</loc>
     <lastmod>2020-03-09T00:39:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/mq/</loc>
+    <lastmod>2020-03-09T00:41:45+08:00</lastmod>
   </url>
   
   <url>
