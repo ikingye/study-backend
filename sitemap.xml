@@ -3,17 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ikingye.github.io/study-backend/docs/db/php/</loc>
-    <lastmod>2020-03-09T00:38:53+08:00</lastmod>
+    <loc>https://ikingye.github.io/study-backend/docs/db/mysql/</loc>
+    <lastmod>2020-03-09T00:39:26+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://ikingye.github.io/study-backend/docs/frame/php/</loc>
-    <lastmod>2020-03-09T00:38:53+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ikingye.github.io/study-backend/docs/frame/</loc>
     <lastmod>2020-03-09T00:38:53+08:00</lastmod>
   </url>
   
@@ -29,7 +24,12 @@
   
   <url>
     <loc>https://ikingye.github.io/study-backend/docs/db/</loc>
-    <lastmod>2020-03-09T00:38:53+08:00</lastmod>
+    <lastmod>2020-03-09T00:39:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/frame/</loc>
+    <lastmod>2020-03-09T00:39:26+08:00</lastmod>
   </url>
   
   <url>
