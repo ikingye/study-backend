@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 叶王笔记</title>
-    <link>https://ikingye.github.io/note/categories/</link>
-    <description>Recent content in Categories on 叶王笔记</description>
+    <title>Categories on 后端学习笔记</title>
+    <link>https://ikingye.github.io/study-backend/categories/</link>
+    <description>Recent content in Categories on 后端学习笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://ikingye.github.io/note/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ikingye.github.io/study-backend/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
