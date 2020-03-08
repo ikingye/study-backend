@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="RocketMQ"><meta property="og:title" content="RocketMQ" />
+<meta name="description" content="消息队列"><meta property="og:title" content="消息队列" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ikingye.github.io/study-backend/docs/mq/" />
 
-<title>RocketMQ | 后端学习笔记</title>
+<title>消息队列 | 后端学习笔记</title>
 <link rel="icon" href="/study-backend/favicon.png" type="image/x-icon">
 
 
 <link rel="stylesheet" href="/study-backend/book.min.33dd7934182d4abfe269db67d0d9821bdd866c149d8327944bc47573db5a4d82.css" integrity="sha256-M915NBgtSr/iadtn0NmCG92GbBSdgyeUS8R1c9taTYI=">
 
 
-<script defer src="/study-backend/en.search.min.1c29490d188717b94ecd445a961b9c672726e77a3d6406fe4ab1304a2157edf5.js" integrity="sha256-HClJDRiHF7lOzURalhucZycm53o9ZAb&#43;SrEwSiFX7fU="></script>
+<script defer src="/study-backend/en.search.min.4b23c6590e377ff9ac0bd2037de6020d7a3f2df2eb439922592604beb5a0a7d9.js" integrity="sha256-SyPGWQ43f/msC9IDfeYCDXo/LfLrQ5kiWSYEvrWgp9k="></script>
 
 <link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/mq/index.xml" title="后端学习笔记" />
 <!--
@@ -274,7 +274,7 @@ https://github.com/alex-shpak/hugo-book
       
 
   <a href="/study-backend/docs/mq/"  class="active">
-      RocketMQ
+      消息队列
   </a>
 
 
@@ -360,7 +360,7 @@ https://github.com/alex-shpak/hugo-book
       
 
   <a href="/study-backend/docs/mq/rocketmq/" >
-      Mysql
+      RocketMQ
   </a>
 
 
@@ -499,7 +499,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/study-backend/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>RocketMQ</strong>
+  <strong>消息队列</strong>
 
   <label for="toc-control">
     <img src="/study-backend/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -513,7 +513,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#rocketmq">RocketMQ</a></li>
+    <li><a href="#heading">消息队列</a></li>
   </ul>
 </nav>
 
@@ -525,7 +525,11 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-<article class="markdown"><h1 id="rocketmq">RocketMQ</h1>
+<article class="markdown"><h1 id="heading">消息队列</h1>
+<p>ZeroMQ 和 RabbitMQ/Kafka 不同，它只是一个异步消息库，在套接字的基础上提供了类似于消息代理的机制。使用 ZeroMQ 的话，需要对自己的业务代码进行改造，不利于服务解耦。</p>
+<p>RabbitMQ 支持 AMQP（二进制），STOMP（文本），MQTT（二进制），HTTP（里面包装其他协议）等协议。Kafka 使用自己的协议。</p>
+<p>Kafka 自身服务和消费者都需要依赖 Zookeeper。</p>
+<p>RabbitMQ 在有大量消息堆积的情况下性能会下降，Kafka 不会。毕竟 AMQP 设计的初衷不是用来持久化海量消息的，而 Kafka 一开始是用来处理海量日志的。</p>
 </article>
  
       
@@ -538,7 +542,7 @@ https://github.com/alex-shpak/hugo-book
 
   <div>
     
-    <a class="flex align-center" href="https://github.com/ikingye/note/commit/a9d27e1e786f30435d3a9fdcd40888640309f9e8" title='Last modified by yewang | 2020-03-09' target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/ikingye/note/commit/a66cb1fd09823055a1e8fe08e03041b0615628d5" title='Last modified by yewang | 2020-03-09' target="_blank" rel="noopener">
       <img src="/study-backend/svg/calendar.svg" class="book-icon" alt="Calendar" />
       <span>2020-03-09</span>
     </a>
@@ -574,7 +578,7 @@ https://github.com/alex-shpak/hugo-book
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#rocketmq">RocketMQ</a></li>
+    <li><a href="#heading">消息队列</a></li>
   </ul>
 </nav>
 
