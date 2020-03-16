@@ -8,6 +8,21 @@
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/grpc/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/spring-cloud/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/dubbo/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/study-backend/docs/frame/python/</loc>
     <lastmod>2020-03-09T00:38:53+08:00</lastmod>
   </url>
@@ -28,8 +43,23 @@
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/thrift/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/study-backend/docs/mq/activemq/</loc>
     <lastmod>2020-03-09T00:44:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/motan/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
   </url>
   
   <url>
@@ -45,6 +75,11 @@
   <url>
     <loc>https://ikingye.github.io/study-backend/docs/frame/</loc>
     <lastmod>2020-03-09T00:39:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/rpc/tars/</loc>
+    <lastmod>2020-03-16T13:26:48+08:00</lastmod>
   </url>
   
   <url>
