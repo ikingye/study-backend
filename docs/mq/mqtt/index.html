@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Docs"><meta property="og:title" content="Docs" />
+<meta name="description" content="MQTT"><meta property="og:title" content="MQTT" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://ikingye.github.io/study-backend/docs/" />
+<meta property="og:url" content="https://ikingye.github.io/study-backend/docs/mq/mqtt/" />
 
-<title>Docs | 后端学习笔记</title>
+<title>MQTT | 后端学习笔记</title>
 <link rel="icon" href="/study-backend/favicon.png" type="image/x-icon">
 
 
@@ -18,7 +18,7 @@
 
 <script defer src="/study-backend/en.search.min.b5e6aed77fc3e2012b6cf730e04ddf5462681714f7afd3a2643f09279703d18c.js" integrity="sha256-teau13/D4gErbPcw4E3fVGJoFxT3r9OiZD8JJ5cD0Yw="></script>
 
-<link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/index.xml" title="后端学习笔记" />
+<link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/mq/mqtt/index.xml" title="后端学习笔记" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -705,7 +705,7 @@ https://github.com/alex-shpak/hugo-book
     
       
 
-  <a href="/study-backend/docs/mq/mqtt/" >
+  <a href="/study-backend/docs/mq/mqtt/"  class="active">
       MQTT
   </a>
 
@@ -813,7 +813,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/study-backend/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Docs</strong>
+  <strong>MQTT</strong>
 
   <label for="toc-control">
     <img src="/study-backend/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -825,7 +825,7 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  
+  <nav id="TableOfContents"></nav>
 
 
     </aside>
@@ -835,7 +835,27 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-<article class="markdown"></article>
+<article class="markdown"><h1 id="mqtt">MQTT</h1>
+<p><a href="https://www.zhihu.com/question/27663804">mqtt 各种 broker 如何选择？</a></p>
+<p><a href="https://www.zhihu.com/question/32173778">Agent 和 Broker 的差别是什么？</a></p>
+<ul>
+<li>经纪人（Broker）：是为促成他人交易，充当订约居间人，为委托方提供订约的信息、机会和条件的主体。
+<ul>
+<li>Broker 是一个独立主体，但没有自主决策能力，只负责订约过程。</li>
+</ul>
+</li>
+<li>代理人（Agent）：是行使被代理者的权力，完成相关的使命或者任务主体。
+<ul>
+<li>Agent 是一个独立主体，负责完成任务但不负责执行任务，Agent 具有一定的自主决策能力，如对服务请求的选择。</li>
+</ul>
+</li>
+<li>代理（Proxy）是指行为代理，不是一个主体。
+<ul>
+<li>Proxy 是完全的传递者，如请求和响应的转发，操作控制的传递。</li>
+</ul>
+</li>
+</ul>
+</article>
  
       
 
@@ -845,12 +865,31 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/ikingye/note/commit/8e94e190785d7e59e4adfb530b8338cf71bac094" title='Last modified by yewang | 2020-03-29' target="_blank" rel="noopener">
+      <img src="/study-backend/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020-03-29</span>
+    </a>
+  </div>
+
 
 
 </div>
 
  
         
+  
+  <div class="book-comments">
+<script src="https://utteranc.es/client.js"
+  repo="ikingye/study-backend"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+
+</div>
   
  
       </footer>
@@ -862,7 +901,7 @@ https://github.com/alex-shpak/hugo-book
     
     <aside class="book-toc">
       
-  
+  <nav id="TableOfContents"></nav>
 
  
     </aside>

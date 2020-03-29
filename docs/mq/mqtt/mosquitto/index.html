@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Docs"><meta property="og:title" content="Docs" />
+<meta name="description" content="mosquitto"><meta property="og:title" content="mosquitto" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://ikingye.github.io/study-backend/docs/" />
+<meta property="og:url" content="https://ikingye.github.io/study-backend/docs/mq/mqtt/mosquitto/" />
 
-<title>Docs | 后端学习笔记</title>
+<title>mosquitto | 后端学习笔记</title>
 <link rel="icon" href="/study-backend/favicon.png" type="image/x-icon">
 
 
@@ -18,7 +18,7 @@
 
 <script defer src="/study-backend/en.search.min.b5e6aed77fc3e2012b6cf730e04ddf5462681714f7afd3a2643f09279703d18c.js" integrity="sha256-teau13/D4gErbPcw4E3fVGJoFxT3r9OiZD8JJ5cD0Yw="></script>
 
-<link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/index.xml" title="后端学习笔记" />
+<link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/mq/mqtt/mosquitto/index.xml" title="后端学习笔记" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -727,7 +727,7 @@ https://github.com/alex-shpak/hugo-book
     
       
 
-  <a href="/study-backend/docs/mq/mqtt/mosquitto/" >
+  <a href="/study-backend/docs/mq/mqtt/mosquitto/"  class="active">
       mosquitto
   </a>
 
@@ -813,7 +813,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/study-backend/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Docs</strong>
+  <strong>mosquitto</strong>
 
   <label for="toc-control">
     <img src="/study-backend/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -825,7 +825,15 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">安装</a>
+      <ul>
+        <li><a href="#macos">MacOS</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
     </aside>
@@ -835,7 +843,21 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-<article class="markdown"></article>
+<article class="markdown"><h1 id="mosquitto">mosquitto</h1>
+<p>物联网（Internet of Things，IoT）最近曝光率越来越高。虽然 HTTP 是网页的事实标准，不过机器之间（Machine-to-Machine，M2M）的大规模沟通需要不同的模式：之前的请求 / 回答（Request/Response）模式不再合适，取而代之的是发布 / 订阅（Publish/Subscribe）模式。这就是轻量级、可扩展的 MQTT（Message Queuing Telemetry Transport）可以施展拳脚的舞台。</p>
+<p>MQTT 是基于二进制消息的发布 / 订阅编程模式的消息协议，最早由 IBM 提出的，如今已经成为 OASIS 规范。由于规范很简单，非常适合需要低功耗和网络带宽有限的 IoT 场景，比如：</p>
+<ul>
+<li>遥感数据</li>
+<li>汽车</li>
+<li>智能家居</li>
+<li>智慧城市</li>
+<li>医疗医护</li>
+</ul>
+<h2 id="heading">安装</h2>
+<h3 id="macos">MacOS</h3>
+<p><code>brew install mosquitto</code></p>
+<p>参考：https://mosquitto.org/download/</p>
+</article>
  
       
 
@@ -845,12 +867,31 @@ https://github.com/alex-shpak/hugo-book
 
 
 
+  <div>
+    
+    <a class="flex align-center" href="https://github.com/ikingye/note/commit/8e94e190785d7e59e4adfb530b8338cf71bac094" title='Last modified by yewang | 2020-03-29' target="_blank" rel="noopener">
+      <img src="/study-backend/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2020-03-29</span>
+    </a>
+  </div>
+
 
 
 </div>
 
  
         
+  
+  <div class="book-comments">
+<script src="https://utteranc.es/client.js"
+  repo="ikingye/study-backend"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+
+</div>
   
  
       </footer>
@@ -862,7 +903,15 @@ https://github.com/alex-shpak/hugo-book
     
     <aside class="book-toc">
       
-  
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">安装</a>
+      <ul>
+        <li><a href="#macos">MacOS</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
  
     </aside>
