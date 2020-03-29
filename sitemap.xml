@@ -48,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://ikingye.github.io/study-backend/docs/auth/sso/</loc>
+    <lastmod>2020-03-29T22:24:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ikingye.github.io/study-backend/docs/api/webservice/</loc>
     <lastmod>2020-03-29T20:50:17+08:00</lastmod>
   </url>
@@ -60,6 +65,11 @@
   <url>
     <loc>https://ikingye.github.io/study-backend/docs/db/</loc>
     <lastmod>2020-03-16T14:01:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ikingye.github.io/study-backend/docs/auth/</loc>
+    <lastmod>2020-03-29T22:24:41+08:00</lastmod>
   </url>
   
   <url>
