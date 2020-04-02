@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="/study-backend/book.min.33dd7934182d4abfe269db67d0d9821bdd866c149d8327944bc47573db5a4d82.css" integrity="sha256-M915NBgtSr/iadtn0NmCG92GbBSdgyeUS8R1c9taTYI=">
 
 
-<script defer src="/study-backend/en.search.min.63d36c92fa0155b4ee70fce3a8b41517e2362d77d82f89b7cc0271f10d5dc060.js" integrity="sha256-Y9NskvoBVbTucPzjqLQVF&#43;I2LXfYL4m3zAJx8Q1dwGA="></script>
+<script defer src="/study-backend/en.search.min.b6aa0c2a13a03871a5f0de6d2a79bdd61e794fb6c12c2e265320635a90321a09.js" integrity="sha256-tqoMKhOgOHGl8N5tKnm91h55T7bBLC4mUyBjWpAyGgk="></script>
 
 <link rel="alternate" type="application/rss+xml" href="https://ikingye.github.io/study-backend/docs/auth/oauth/index.xml" title="后端学习笔记" />
 <!--
@@ -213,6 +213,32 @@ https://github.com/alex-shpak/hugo-book
     
       
 
+  <a href="/study-backend/docs/auth/openid/" >
+      OpenID
+  </a>
+
+
+    
+
+    
+
+
+
+
+
+
+  </li>
+
+
+      
+    
+      
+        
+
+  <li >
+    
+      
+
   <a href="/study-backend/docs/auth/jwt/" >
       JWT
   </a>
@@ -385,7 +411,12 @@ https://github.com/alex-shpak/hugo-book
       <ul>
         <li><a href="#20">2.0</a></li>
         <li><a href="#10">1.0</a></li>
-        <li><a href="#heading">参考</a>
+        <li><a href="#heading">问答</a>
+          <ul>
+            <li><a href="#-refresh-token">为什么需要 Refresh Token</a></li>
+          </ul>
+        </li>
+        <li><a href="#heading-1">参考</a>
           <ul>
             <li><a href="#rfc6749httpstoolsietforghtmlrfc6749">rfc6749</a></li>
             <li><a href="#-uuap-oauth">百度 UUAP OAuth</a></li>
@@ -410,7 +441,15 @@ https://github.com/alex-shpak/hugo-book
 <p><img src="https://cdn.jsdelivr.net/gh/ikingye/imagehost/picgo/20200401141347.png" alt=""></p>
 <h2 id="10">1.0</h2>
 <hr>
-<h2 id="heading">参考</h2>
+<h2 id="heading">问答</h2>
+<h3 id="-refresh-token">为什么需要 Refresh Token</h3>
+<p>这样的处理是为了职责的分离：</p>
+<ul>
+<li><code>refresh token</code> 负责身份认证</li>
+<li><code>access token</code> 负责请求资源。</li>
+</ul>
+<hr>
+<h2 id="heading-1">参考</h2>
 <ul>
 <li><a href="https://www.mutuallyhuman.com/blog/choosing-an-sso-strategy-saml-vs-oauth2/">Choosing an SSO Strategy: SAML vs OAuth2</a></li>
 </ul>
@@ -429,9 +468,9 @@ https://github.com/alex-shpak/hugo-book
 
   <div>
     
-    <a class="flex align-center" href="https://github.com/ikingye/note/commit/22715750a4dd2ed735dd5541c2a05f037db7dc81" title='Last modified by yewang | 2020-04-01' target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/ikingye/note/commit/587138eb50ac9afe12a245e5ea5433bad24a882c" title='Last modified by yewang | 2020-04-02' target="_blank" rel="noopener">
       <img src="/study-backend/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2020-04-01</span>
+      <span>2020-04-02</span>
     </a>
   </div>
 
@@ -469,7 +508,12 @@ https://github.com/alex-shpak/hugo-book
       <ul>
         <li><a href="#20">2.0</a></li>
         <li><a href="#10">1.0</a></li>
-        <li><a href="#heading">参考</a>
+        <li><a href="#heading">问答</a>
+          <ul>
+            <li><a href="#-refresh-token">为什么需要 Refresh Token</a></li>
+          </ul>
+        </li>
+        <li><a href="#heading-1">参考</a>
           <ul>
             <li><a href="#rfc6749httpstoolsietforghtmlrfc6749">rfc6749</a></li>
             <li><a href="#-uuap-oauth">百度 UUAP OAuth</a></li>
